@@ -31,7 +31,7 @@ function slowDown(velocity) {
   }
   return newVelocity;
 }
-function printSpaceshipBoardData(name, velocity) {
+function printSpaceshipBoardData(spaceship, velocity) {
   alert("Espaçonave: " + spaceship + "\nVelocidade: " + velocity + "km/s");
 }
   do {
